@@ -1,5 +1,5 @@
 FROM maven:3.5.4-jdk-8-alpine
-ENV CLOUD_SDK_VERSION 206.0.0
+ENV CLOUD_SDK_VERSION 296.0.1
 
 ENV PATH /google-cloud-sdk/bin:$PATH
 RUN apk --no-cache add \
